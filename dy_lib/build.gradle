@@ -2,8 +2,9 @@ plugins {
     id 'com.android.library'
     id 'kotlin-android'
     id 'kotlin-android-extensions'
+    id 'com.vanniktech.maven.publish'
 }
-
+//apply plugin: ""
 android {
     compileSdkVersion rootProject.ext.android.compileSdkVersion
     buildToolsVersion rootProject.ext.android.buildToolsVersion
@@ -115,3 +116,22 @@ dependencies {
 
     implementation 'com.github.bumptech.glide:glide:3.7.0'
 }
+
+//buildscript {
+//    repositories {
+//        mavenCentral()
+//    }
+//    dependencies {
+//        classpath 'com.vanniktech:gradle-maven-publish-plugin:0.17.0'
+//    }
+//}
+//
+//allprojects {
+//    plugins.withId("com.vanniktech.maven.publish") {
+//        mavenPublish {
+//            sonatypeHost = "S01"
+//        }
+//    }
+//}
+//
+//apply plugin: "com.vanniktech.maven.publish"

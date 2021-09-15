@@ -43,5 +43,7 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
-    implementation project(':dy_lib')
+//    implementation project(':dy_lib')
+
+    implementation "io.github.sirll.DY_LIB:1.0.0"
 }
