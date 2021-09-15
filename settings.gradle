@@ -1,0 +1,8 @@
+include ':mylibrary'
+include ':dydemo'//include ':jiguang'
+//include ':qiyu'
+include ':FlycoTabLayout_Lib'
+include ':lib_http'
+include ':lib_base'
+include ':dy_lib'
+rootProject.name = "DY_LIB"
